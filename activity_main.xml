@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="25dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Which programming language do you like?"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp" />
+
+    <CheckBox
+        android:id="@+id/cpp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="C++" />
+
+    <CheckBox
+        android:id="@+id/java"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp" />
+    <CheckBox
+        android:id="@+id/python"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Python"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp" />
+
+    <CheckBox
+        android:id="@+id/ruby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ruby"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp" />
+
+    <CheckBox
+        android:id="@+id/matlab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Matlab"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="42dp"
+        android:text="CLICK ME"
+        android:onClick="clickMe" />
+
+</LinearLayout>
